@@ -1,0 +1,37 @@
+/*pc*/
+@media (min-width: 1024px) {
+    
+}
+/*tablet*/
+@media (max-width: 1023px) and (min-width: 740px) {
+    .content_btn{
+        width: 30%;
+    }
+    .header{
+        font-size: 18px;
+    }
+}
+/*mobile*/
+@media (max-width: 740px) {
+    .content_btn{
+        width: 100%;
+    }
+    .header{
+        font-size: 16px;
+    }
+    .header_right{
+        display: none;
+    }
+    .header_right_moblie{
+        display: block;
+    }
+    #modal_body p{
+        font-size: 14px;
+    }
+    #modal_body h3{
+        font-size: 16px;
+    }
+    .modal_header h3{
+        font-size: 25px;
+    }
+}
